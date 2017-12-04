@@ -117,7 +117,7 @@ function endGame() {
   clearInterval(gameInterval); //Laura
 
 //  ROCKS.forEach( function (rock) { rock.remove() } );
-  for (let i = 0; i < ROCKS.length; i++) {
+  for (var i = 0; i < ROCKS.length; i++) {
     ROCKS[i].remove()
   }
 
